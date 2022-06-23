@@ -3,7 +3,7 @@ import { useState,useEffect} from 'react'
 
 //importar a config do firebase
 import { app, database } from '../services/firebase'
-import { collection,doc, getDocs, orderBy, query, deleteDoc, getDoc } from 'firebase/firestore';
+import { collection,doc, getDocs, orderBy, query, deleteDoc, getDoc, updateDoc } from 'firebase/firestore';
 
 //configurar o Firebase do projeto
 const contato = collection(database,'contato')
